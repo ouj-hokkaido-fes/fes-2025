@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@theme {
+    --color-midnight: #121063;
+    --color-tahiti: #3ab7bf;
+    --color-glay: #6b6b6b;
+    --color-textblack: #252525;
+    --color-bermuda: #78dcca;
+    --color-qgreen: #55c500;
+  }
+.title-text{	
+    text-shadow: 0px 6px 6px rgba(0,0,0,0.2);
+}
