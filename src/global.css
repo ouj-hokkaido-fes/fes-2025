@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=M+PLUS+1:wght@100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Zen+Kaku+Gothic+Antique&family=Zen+Maru+Gothic&display=swap');@import "tailwindcss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,10 +8,16 @@
 @theme {
     --color-midnight: #121063;
     --color-tahiti: #3ab7bf;
-    --color-glay: #6b6b6b;
-    --color-textblack: #252525;
+    --color-glay: #3a3a3a;
+    --color-textblack: #1d1d1d;
     --color-bermuda: #78dcca;
     --color-qgreen: #55c500;
+
+    --font-mplus: "M PLUS 1", sans-serif;
+    --font-zmaru: "Zen Maru Gothic", sans-serif;
+    --font-zkaku: "Zen Kaku Gothic Antique", sans-serif;
+    --font-bizud: "BIZ UDGothic",sans-serif;
+    --font-ubuntu: "Ubuntu Mono", monospace;
   }
 .title-text{	
     text-shadow: 0px 6px 6px rgba(0,0,0,0.2);

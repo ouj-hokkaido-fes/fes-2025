@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=M+PLUS+1:wght@100..900&family=Zen+Kaku+Gothic+Antique&family=Zen+Maru+Gothic&display=swap');
 @import "tailwindcss";
+
 
 @layer 
 base
@@ -25,6 +27,7 @@ box-sizing
     
 font-family
 : sans-serif;
+
     /* color: #333; */
   }
 }
