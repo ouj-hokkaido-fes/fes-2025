@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
-    "build": "vite build && cp -r dist docs",
-    "rebuild": "vite build && rmdir /s /q docs && xcopy /e /i /y dist docs",
+    "build": "vite build && xcopy /e /i /y dist docs",
+    "rebuild": "vite build && xcopy /e /i /y seo dist && rmdir /s /q docs && xcopy /e /i /y dist docs",
     "git": "git add . && git commit && git push origin main"
   },
   "dependencies": {
