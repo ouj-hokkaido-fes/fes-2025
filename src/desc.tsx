@@ -1,6 +1,8 @@
 import './global.css';
 import './index.css';
 
+import EventDesc from './eventdesc';
+
 
 function Desc(){
     return(
@@ -31,10 +33,11 @@ function Desc(){
                 <div className='mt-15'>
                     <h3 className='text-xl font-bold font-mplus text-glay lg:text-4xl mb-2 
                     md:text-4xl sm:text-5xl'>イベント</h3>
-                    <div className='mt-5 ml-5 lg:mt-5 ml-15'>
+                    <hr className='mt-2 mb-8 border-gray-300'></hr>
+                    <div className='mt-5 ml-0 lg:mt-5 bg-bggreen p-3 obj-shadow rounded-md'>
                             <h4 className='text-xl font-bold font-mplus text-glay lg:text-3xl mb-2 
                             md:text-4xl sm:text-4xl'>実会場でのイベント</h4>
-                        <div className='ml-1 lg:ml-10'>
+                        <div className='ml-0 lg:ml-10'>
                             <span className='text-xl lg:text-2xl'>
                             <p>映画会</p>
                                 <p>『型破りな教室』</p>
@@ -44,6 +47,18 @@ function Desc(){
                                 <p></p>
                             <p>ステージ発表</p>
                             <p>バザー</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div className='mt-5 ml-0 lg:mt-5 bg-bgblue p-3 obj-shadow rounded-md'>
+                            <h4 className='text-xl font-bold font-mplus text-glay lg:text-3xl mb-2 
+                            md:text-4xl sm:text-4xl'>メタバースキャンパスでのイベント</h4>
+                        <div className='ml-0 lg:ml-10'>
+                            <span className='text-xl lg:text-2xl'>
+                            <p>講演会</p>
+                            <p>読書会</p>
+                            <p>自学発表 自学発表サークル主催</p>
+                            <p>作品展示</p>
                             </span>
                         </div>
                     </div>

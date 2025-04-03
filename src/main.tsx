@@ -4,6 +4,7 @@ import './index.css';
 import "./global.css";
 import App from './App.tsx';
 import Desc from './desc.tsx';
+import Contact from './contact.tsx';
 
 const baseDate = new Date('2025-09-21T12:00:00')
 
@@ -13,8 +14,8 @@ createRoot(document.getElementById('root')!).render(
     <div className="flex justify-center">
       <div className="">
         <App basetime={baseDate}/>
-        
         <Desc></Desc>
+        <Contact></Contact>
       </div>
     </div>
   </StrictMode>,
