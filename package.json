@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://ouj-hokkaido-fes.github.io/fes-2025/",
+  "homepage": "https://ouj-hokkaido-fes.github.io/fes-2025/",
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
@@ -18,7 +18,8 @@
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.17"
+    "tailwindcss": "^4.0.17",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -32,5 +33,9 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ouj-hokkaido-fes/fes-2025.git",
+  "author": "kumori <3dsdsdsds@gmail.com>",
+  "license": "MIT"
 }
