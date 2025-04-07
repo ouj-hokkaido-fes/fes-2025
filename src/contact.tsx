@@ -5,7 +5,7 @@ function Contact(){
     return(
         <>
         <div className='m-3'>
-            <h3 className='text-xl font-bold font-mplus lg:text-4xl
+            <h3 className='text-xl font-bold font-mplus lg:text-4xl text-glay 
                     md:text-4xl sm:text-5xl'>お問い合わせ</h3>
             
             <hr className='mt-2 mb-8 border-gray-300'></hr>

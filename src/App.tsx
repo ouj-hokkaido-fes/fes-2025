@@ -27,7 +27,7 @@ function App({basetime}:titleProps) {
     <>
     <div>
       <div className="m-3 font-bold">
-        <h1 className="text-textblack text-xl lg:text-4xl mb-2  md:text-4xl sm:text-5xl">放送大学</h1>
+        <h1 className="text-glay text-xl lg:text-4xl mb-2  md:text-4xl sm:text-5xl">放送大学</h1>
         <div className='flex flex-row title-text'>
           <h2 className="lg:6xl ml-5 text-xl md:text-5xl sm:text-4xl">北海道学習センター 
             <span className="text-qgreen">文化祭</span></h2>

@@ -14,8 +14,8 @@ function Desc(){
                 </h3>
                 <div className=' lg:my-5'>
                 <span className='lg:text-3xl'>
-                    <p className='text-textblack ml-2 mb-5 lg:ml-15'>北海道学習センター: 9月19日(金) ~ 9月21日(日)</p>
-                    <p className='text-textblack ml-2 lg:ml-15'>メタバースキャンパス: 9月19日(金) ~ 10月中旬</p>
+                    <p className='text-textblack ml-2 mb-5 lg:ml-15'>北海道学習センター 9月19日(金) ~ 9月21日(日)</p>
+                    <p className='text-textblack ml-2 lg:ml-15'>メタバースキャンパス 9月19日(金) ~ 10月中旬</p>
                 </span>
                 </div>
             </div>
@@ -61,6 +61,11 @@ function Desc(){
                             <p>作品展示</p>
                             </span>
                         </div>
+                    </div>
+                    <div className='my-6'>
+                        <p className='font-bold lg:text-xl mb-2 text-glay
+                            md:text-2xl sm:text-2xl'>イベントの詳細はこちら</p>
+                        <a className='text-blue'href="https://sites.google.com/view/oujh-bunkasai/%E6%96%87%E5%8C%96%E7%A5%AD">https://sites.google.com/view/oujh-bunkasai/%E6%96%87%E5%8C%96%E7%A5%AD</a>
                     </div>
                 </div>
             <div>

@@ -12,6 +12,7 @@
     --color-textblack: #1d1d1d;
     --color-bermuda: #78dcca;
     --color-qgreen: #55c500;
+    --color-blue: #1d6cff;
     --color-darkgreen:rgb(236, 236, 236);
     --color-bggreen:rgb(245, 255, 242);
     --color-bgblue:rgb(242, 253, 255);
@@ -23,6 +24,8 @@
     --font-zkaku: "Zen Kaku Gothic Antique", sans-serif;
     --font-bizud: "BIZ UDGothic",sans-serif;
     --font-ubuntu: "Ubuntu Mono", monospace;
+
+    --list-square: { list-style-type: "square";}
   }
 .title-text{	
     text-shadow: 0px 6px 6px rgba(0,0,0,0.2);
