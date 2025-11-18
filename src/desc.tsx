@@ -8,7 +8,7 @@ import { Button } from './assets/button';
 function Desc(){
 
     const handleClick = () => {
-        window.location.href = "https://sites.google.com/view/oujh-bunkasai/%E6%96%87%E5%8C%96%E7%A5%AD";
+        window.location.href = "https://sites.google.com/view/oujh-bunkasai/%E6%94%BE%E9%80%81%E5%A4%A7%E5%AD%A6%E5%8C%97%E6%B5%B7%E9%81%93%E6%96%87%E5%8C%96%E7%A5%AD";
     };
 
 

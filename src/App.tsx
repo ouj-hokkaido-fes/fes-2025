@@ -42,20 +42,20 @@ function App({basetime}:titleProps) {
             <p className=''>
               <span className='font-ubuntu text-3xl
               lg:text-5xl mx-1 md:text-3xl sd:text-3xl'
-              >{Math.floor(diff/86_400_000)}</span>日</p>
+              >0</span>日</p>
             <p><span className='font-ubuntu text-3xl
             lg:text-5xl mx-1 md:text-3xl sd:text-3xl'
-            >{Math.floor((diff%86_400_000)/3_600_000)}</span>時間</p>
+            >0</span>時間</p>
 
           </div><div className="flex flex-row justify-center text-2xl font-bold
               mt-2 lg:text-3xl mb-2  md:ml-15 text-3xl sd:text-2xl">
 
             <p><span className='font-ubuntu text-3xl
             lg:text-5xl mx-1 md:text-3xl sd:text-3xl'
-            >{Math.floor((diff%86_400_000%3_600_000)/60_000)}</span>分</p>
+            >0</span>分</p>
             <p><span className='font-ubuntu text-3xl
             lg:text-5xl mx-1 md:text-3xl sd:text-3xl'
-            >{Math.floor((diff%86_400_000%3_600_000%60_000)/1_000)}</span>秒</p>
+            >0</span>秒</p>
           </div>
       </div>
     </div>
